@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Random Email Aliases</title>
+    <link rel="stylesheet" href="bulma.min.css">
+    <style>
+      body {
+        width: 360px;
+        margin: 1em;
+      }
+    </style>
+    <script src="popup.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div id="options_page" style="display: none">
+        <p>
+          First, set your original email address in <a id="options" href="options.html">options page</a>.
+        </p>
+      </div>
+
+      <div id="main" style="display: none">
+        <!-- https://github.com/jgthms/bulma/issues/777 -->
+        <div class="field">
+          <label class="label">Alias</label>
+          <div class="control">
+            <div class="field has-addons">
+              <div class="control is-expanded">
+                <input id="alias1" class="input is-small" readonly>
+              </div>
+              <div class="control">
+                <button id="copy1" class="button is-primary is-small">Copy</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="field">
+          <label class="label">Alias without +</label>
+          <div class="control">
+            <div class="field has-addons">
+              <div class="control is-expanded">
+                <input id="alias2" class="input is-small" readonly>
+              </div>
+              <div class="control">
+                <button id="copy2" class="button is-primary is-small">Copy</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="field">
+          <label class="label">Regenerate</label>
+          <div class="control">
+            <button id="regenerate" class="button is-primary is-small">Regenerate</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

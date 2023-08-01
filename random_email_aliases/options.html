@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Random Email Aliases</title>
+    <link rel="stylesheet" href="bulma.min.css">
+    <style>
+      body {
+        padding: 1em;
+      }
+    </style>
+    <script src="options.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <form id="form">
+        <div class="field">
+          <label class="label">Original email address</label>
+          <div class="control">
+            <div class="field has-addons">
+              <div class="control is-expanded">
+                <input id="email_address" class="input is-small" placeholder="example@gmail.com" autofocus>
+              </div>
+              <div class="control">
+                <button id="submit" type="submit" class="button is-primary is-small">Save</button>
+              </div>
+            </div>
+          </div>
+          <div class="control">
+            <p class="help">If your email address is not a Gmail address, make sure that your email service supports aliases like Gmail.</p>
+          </div>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>

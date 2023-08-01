@@ -1,0 +1,7 @@
+If you are use Gmail, you can get variations of your email address by adding +someword after your name or inserting dots to your name.
+This extension helps you create these aliases.
+
+Gmailなどのメールアドレスのランダムなエイリアスを生成するという単一の用途のための拡張機能です。
+
+ユーザーの入力したメールアドレスを保存するために使用します。
+メールアドレスを保存するのはユーザーの利便性のためであり、メールアドレスは storage.local のみに保存され、開発者が取得することはありません。
